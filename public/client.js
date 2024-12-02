@@ -1,5 +1,5 @@
 //CONNECTING SOCKET.IO WITH FRONTEND JAVASCRIPT
-const socket = io("http://localhost:2000");
+const socket = io("https://chattu-beige.vercel.app/");
 
 //GETTING HTML ELEMENTS
 const MessageContainer = document.querySelector(".messages");
