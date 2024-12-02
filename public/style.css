@@ -1,0 +1,43 @@
+.application {
+    height: 900px;
+    width: 1000px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: rgb(218, 160, 218);
+    overflow: auto;
+}
+
+#form {
+    position: absolute;
+    top: 840px;
+}
+
+#form #message {
+    height: 30px;
+    width: 990px;
+}
+
+#form .btn {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(197, 197, 224);
+
+}
+
+.buttons {
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    margin-right: 464px;
+    border: 2px solid black;
+}
+
+.green {
+    background-color: green;
+    color: white;
+    margin-left: 464px;
+    border: 2px solid black;
+}

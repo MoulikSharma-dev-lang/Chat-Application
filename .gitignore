@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+
+# npm debug log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# dotenv environment variables file
+.env
+.env.local
+.env.*.local
+
+# Build output (if you're using a build tool like Babel or Webpack)
+build/
+dist/
+
+# Logs
+*.log
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Coverage reports (if using testing tools like Jest)
+coverage/
+
+# TypeScript build files (if using TypeScript)
+*.tsbuildinfo
+
+# Editors/IDE specific files
+.vscode/
+.idea/
+
+# OS-generated files
+Thumbs.db

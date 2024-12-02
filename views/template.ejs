@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyChat - Your personal Chat Application</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+    <div class="application">
+        <div class="messages"></div>
+        <br>
+        <br>
+        <form id="form">
+            <input type="text" placeholder="Enter your message" id="message">
+            <br>
+            <div class="buttons">
+                <button id="sendbtn" class="btn">Send</button>
+                <button id="disbtn" class="btn">Diconnect</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="http://localhost:2000/socket.io/socket.io.js"></script>
+<script src="client.js"></script>
+</html>
